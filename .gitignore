@@ -1,0 +1,10 @@
+.DS_Store
+core.cpython-36.pyc
+spie.cpython-35.pyc
+spie.cpython-36.pyc
+__pycache__
+docs/source/_template
+docs/source/_static
+dist/
+spie.egg-info/
+build/
