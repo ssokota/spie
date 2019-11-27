@@ -47,7 +47,7 @@ GSPIE was also introduced in the paper *Simultaneous Prediction Intervals for Pa
 #### Given enough samples such that the quantiles of the ogive do not severely overfit as pointwise intervals, Bonferroni will produce conservative SPI that are generally (though not always) looser than the other methods.
 Pointwise Bonferroni is a baseline that estimates pointwise prediction intervals by the quantiles of the ogive (the empirical distribution with linear interpolation) with a Bonferroni correction. The Bonferroni correction is a method that combines pointwise intervals into simultaneous intervals in a manner that is guaranteed to be accurate or conservative. In practice, it often yields simultaneous intervals that are very conservative.
 
-## Relevant References
+## References
 
 ```
 Prediction Intervals:
@@ -75,13 +75,12 @@ Olshen's method:
 
 Two-sided Olshen's method and GSPIE:
 
-@misc{sokota2019simultaneous,
-    title = {Simultaneous Prediction Intervals for Patient-Specific Survival Curves},
-    author = {Samuel Sokota and Ryan D'Orazio and Khurram Javed and Humza Haider and Russell Greiner},
-    year = {2019},
-    eprint = {1906.10780},
-    archivePrefix = {arXiv},
-    primaryClass = {cs.LG}
+@inproceedings{ijcai2019-828,
+  title     = {Simultaneous Prediction Intervals for Patient-Specific Survival Curves},
+  author    = {Sokota, Samuel and D'Orazio, Ryan and Javed, Khurram and Haider, Humza and Greiner, Russell},
+  booktitle = {Proceedings of the Twenty-Eighth International Joint Conference on
+               Artificial Intelligence, {IJCAI-19}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization}
 }
 
 
